@@ -1,0 +1,55 @@
+# Hospital Ward - Bed Registry & Destinations
+# Original layout: hospital spans x=[0,14], y=[0,10]
+# Corridor runs at y=4 to y=6
+# Upper rooms (y=6 to y=10): Rooms 1, 2, 3
+# Lower rooms (y=0 to y=4): Pharmacy, Room 4, Nurse Station
+
+pharmacy:
+  name: "Pharmacy Station"
+  x: 1.75
+  y: 2.5
+  yaw: 0.0
+
+nurse_station:
+  name: "Nurse Station"
+  x: 12.0
+  y: 2.5
+  yaw: 1.57
+
+beds:
+  bed_01:
+    name: "Bed 01 - Room 1"
+    room: "Room 1"
+    x: 2.0
+    y: 7.5
+    yaw: 1.57
+    description: "Upper-left room"
+
+  bed_02:
+    name: "Bed 02 - Room 2"
+    room: "Room 2"
+    x: 7.0
+    y: 7.5
+    yaw: 1.57
+    description: "Upper-center room"
+
+  bed_03:
+    name: "Bed 03 - Room 3"
+    room: "Room 3"
+    x: 12.0
+    y: 7.5
+    yaw: 1.57
+    description: "Upper-right room"
+
+  bed_04:
+    name: "Bed 04 - Room 4"
+    room: "Room 4"
+    x: 7.0
+    y: 2.5
+    yaw: -1.57
+    description: "Lower-center room"
+
+robot_spawn:
+  x: 1.75
+  y: 2.5
+  yaw: 0.0
