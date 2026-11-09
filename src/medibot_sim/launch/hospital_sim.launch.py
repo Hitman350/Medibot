@@ -29,7 +29,7 @@ def generate_launch_description():
 
     world_file = os.path.join(medibot_sim_dir, 'worlds', 'hospital_ward.world')
     map_yaml = os.path.join(medibot_sim_dir, 'maps', 'hospital_ward.yaml')
-    nav2_params = os.path.join(medibot_sim_dir, 'config', 'nav2_hospital_params.yaml')
+    nav2_params = os.path.join(medibot_sim_dir, 'config', 'nav2_params.yaml')
 
     # Use TurtleBot3 Burger
     urdf_file = os.path.join(tb3_gazebo_dir, 'urdf', 'turtlebot3_burger.urdf')
